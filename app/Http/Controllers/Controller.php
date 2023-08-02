@@ -14,4 +14,12 @@ class Controller extends BaseController
     public function homepage(){
         return view('welcome');
     }
+
+    public function login(){
+        echo 'Tela de Login';
+    }
+
+    public function cadastro(){
+        echo "Tela de Cadastro";
+    }
 }

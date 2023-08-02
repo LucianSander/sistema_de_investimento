@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [Controller::class, 'homepage']);
+Route::get('/login', [Controller::class, 'login']);
+Route::get('/cadastro', [Controller::class, 'cadastro']);
 
 
